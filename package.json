@@ -1,0 +1,17 @@
+{
+  "name": "challenges",
+  "version": "1.0.0",
+  "description": "programming challenges directory",
+  "main": "index.js",
+  "repository": "git@github.com:fortunaut/challenges.git",
+  "author": "fortunaut <me@fortunaut.dev>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
