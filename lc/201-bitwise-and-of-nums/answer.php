@@ -14,12 +14,6 @@ public function rangeBitwiseAnd($left, $right) {
     $right = $right >> 1;
     $c++;
   }
-//   for ($i = $left; $i <= $tempRight; $i++) {
-//       $answer = $i & $answer;
-//       if ($answer == 0) {
-//         return 0;
-//       }
-//     }
   return $left << $c;
 }
 }
